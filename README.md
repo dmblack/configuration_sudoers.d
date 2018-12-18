@@ -23,6 +23,11 @@ It's not parsed, in a Debian default configuration.
 ## .git Directory
 It's not parsed, in a Debian default configuration.
 
+## VISUDO
+Please use visudo! visudo will parse your file for errors on 
+save and close, potentially avoiding your accidental temporary lockout
+and requirement to then boot to single user mode to resolve.
+
 # Development Dependencies
 * sudo (Package, and privilege)
 
