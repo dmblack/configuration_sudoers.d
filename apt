@@ -1,5 +1,5 @@
-Cmnd_Alias APTUPDATE	=	/usr/bin/apt update
-Cmnd_Alias APTUPGRADE	=	/usr/bin/apt upgrade
+Cmnd_Alias APTUPDATE	=	/usr/bin/apt update, /usr/bin/apt-get update
+Cmnd_Alias APTUPGRADE	=	/usr/bin/apt upgrade, /usr/bin/apt-get upgrade
 
 %aptupdate_sudoers	ALL=(ALL)	NOPASSWD:	APTUPDATE
 %aptupgrade_sudoers	ALL=(ALL)	NOPASSWD:	APTUPGRADE
